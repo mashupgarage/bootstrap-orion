@@ -2,5 +2,12 @@
 
 .top-nav {
   background: $dark;
-  height: 60px;
+
+  position: relative;
+  z-index: 1;
+}
+
+.top-nav > .container {
+  white-space: nowrap;
+  @include has-lrc(48px, $background: $dark);
 }

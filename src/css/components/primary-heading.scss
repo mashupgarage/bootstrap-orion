@@ -8,33 +8,8 @@
 }
 
 .primary-heading > .container {
-  & {
-    white-space: nowrap;
-    position: relative;
-  }
-
-  > .left,
-  > .right {
-    position: relative;
-    z-index: 2;
-    background: white;
-  }
-
-  > .left {
-    text-align: left;
-    float: left;
-  }
-
-  > .center {
-    text-align: center;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    z-index: 1;
-    height: 60px;
-    line-height: 60px;
-  }
+  white-space: nowrap;
+  @include has-lrc(60px);
 }
 
 .primary-title {

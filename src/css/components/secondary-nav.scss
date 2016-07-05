@@ -2,9 +2,14 @@
 
 .secondary-nav {
   background: white;
-  height: 48px;
-  line-height: 48px;
   box-shadow: 0 1px rgba($primary, .2);
+
+  position: relative;
+  z-index: 1;
+}
+
+.secondary-nav > .container {
+  @include has-lrc(48px, $background: transparent);
 }
 
 // Separator before primary-heading
@@ -42,6 +47,16 @@
     margin: 0 16px;
   }
 
+  // Caps
+  > li:first-child > a {
+    margin-left: 0;
+  }
+
+  > li:last-child > a {
+    margin-right: 0;
+  }
+
+  // Hover
   > li > a:focus,
   > li > a:hover {
     text-decoration: none;
@@ -52,6 +67,6 @@
   > li.-active > a,
   > li > a.-active {
     color: $accent;
-    box-shadow: inset 0 -1px $accent;
+    box-shadow: 0 1px $accent;
   }
 }

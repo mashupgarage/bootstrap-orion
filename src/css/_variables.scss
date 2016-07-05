@@ -17,20 +17,25 @@ $grid-gutter-width: 16px;
  */
 
 $inset-bg: #E9ECF6;
-$body-bg: $inset-bg;
 
+// Main palette
 $dark: #4B516D;
 $primary: #95A1D8;
+$accent: #22C7F5;
+
+// Neutrals
+$text-color: #505050;
+$black: #333;
+$gray-text: $primary;
+$line-color: rgba($primary, .08);
+
+// Variants
 $primary-dark: darken($primary, 12.5%);
 $primary-darker: darken($primary, 25%);
 $primary-light: lighten($primary, 12.5%);
 $primary-lighter: lighten($primary, 25%);
 
-$accent: #22C7F5;
-$text-color: #505050;
-$black: #333;
-$gray-text: $primary;
-$line-color: rgba($primary, .08);
+// Aliases
 $brand-primary: $primary;
 
 /*
