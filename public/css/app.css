@@ -7417,22 +7417,22 @@ h6 {
   position: relative;
   top: -1px; }
 
-/* line 30, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
+/* line 31, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
 .back-crumbs > li.-home > a::before {
   font-size: 20px;
   margin: 0; }
 
-/* line 35, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
+/* line 36, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
 .back-crumbs > li:first-child > a::before {
   margin-left: 0; }
 
-/* line 42, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
+/* line 43, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
 .back-crumbs > li > a:hover,
 .back-crumbs > li > a:focus {
   color: #22C7F5;
   text-decoration: none; }
 
-/* line 47, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
+/* line 48, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
 .back-crumbs > li > a:hover::before,
 .back-crumbs > li > a:focus::before {
   color: #22C7F5; }
@@ -7833,7 +7833,7 @@ h6 {
   height: 48px;
   line-height: 48px;
   white-space: nowrap;
-  margin: 0 16px; }
+  margin: 0 12px; }
 
 /* line 51, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/secondary-nav.scss */
 .secondary-links > li:first-child > a {

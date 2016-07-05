@@ -27,6 +27,7 @@
     top: -1px;
   }
 
+  // Home button
   > li.-home > a::before {
     @include ion-icon('ios-home', 20px);
     margin: 0;
