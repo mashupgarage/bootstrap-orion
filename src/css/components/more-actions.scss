@@ -1,0 +1,39 @@
+@import '../common';
+
+.more-actions {
+  width: 160px;
+  // Compensation for extra width
+  margin-left: (-160px + 24px + 8px);
+  text-align: right;
+  display: inline-block;
+  pointer-events: none;
+
+  // Dropdown and toggle button
+  > * {
+    pointer-events: auto;
+  }
+
+  // Toggle button
+  > .toggle {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent;
+  }
+
+  // Icon
+  > .toggle::before {
+    @include ion-icon('android-more-vertical', 24px);
+    color: $primary;
+    display: inline-block;
+    width: 24px;
+    height: 32px;
+    line-height: 32px;
+  }
+
+  > .toggle:hover::before,
+  > .toggle:focus::before {
+    color: $accent;
+  }
+}

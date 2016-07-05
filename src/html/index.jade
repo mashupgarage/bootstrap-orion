@@ -34,5 +34,24 @@ block body
 
   .inset-bg
     .container
+      table.crud-table
+        each x in [1, 2, 3]
+          tr
+            td.icon
+            td.name
+              | Glazed donuts
+            td.actions.crud-actions
+              span.info 2 items, 0kb
+              a.btn(href="") Edit
+              .dropdown.more-actions
+                button.toggle(data-toggle="dropdown" title="More actions...")
+                ul.dropdown-menu
+                  li
+                    a(href="") Show
+                  li
+                    a(href="") Edit
+                  li
+                    a(href="") Delete
+
       p.text-center(style="padding: 400px")
         | Hello there.

@@ -7268,6 +7268,89 @@ html, body {
 /*
  * Modularscale-sass
  */
+/*
+ * Typography
+ */
+/*
+ * Modular scale helpers
+ */
+/*
+ * Antialias
+ */
+/*
+ * Boxes
+ */
+/* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+h1 {
+  font-size: 23px; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    /* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h1 {
+      font-size: 23px; } }
+  @media (min-width: 60em) {
+    /* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h1 {
+      font-size: 35px; } }
+
+/* line 4, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+h2 {
+  font-size: 20px; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    /* line 4, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h2 {
+      font-size: 20px; } }
+  @media (min-width: 60em) {
+    /* line 4, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h2 {
+      font-size: 29px; } }
+
+/* line 5, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+h3 {
+  font-size: 19px; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    /* line 5, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h3 {
+      font-size: 19px; } }
+  @media (min-width: 60em) {
+    /* line 5, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h3 {
+      font-size: 24px; } }
+
+/* line 6, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+h4 {
+  font-size: 17px; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    /* line 6, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h4 {
+      font-size: 17px; } }
+  @media (min-width: 60em) {
+    /* line 6, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+    h4 {
+      font-size: 20px; } }
+
+/* line 8, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #333; }
+
+/* line 15, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/base/base.scss */
+.btn {
+  border-radius: 2px; }
+
+/*
+ * Bootstrap
+ * https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+ */
+/*
+ * Colors
+ */
+/*
+ * Modularscale-sass
+ */
 /* line 101, node_modules/iconfonts/stylesheets/ionicons.scss */
 .back-crumbs > li > a::before, .back-crumbs > li.-home > a::before {
   line-height: 1em;
@@ -7324,7 +7407,7 @@ html, body {
   @media (min-width: 60em) {
     /* line 15, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
     .back-crumbs > li > a {
-      font-size: 16px; } }
+      font-size: 17px; } }
 
 /* line 22, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/back-crumbs.scss */
 .back-crumbs > li > a::before {
@@ -7376,9 +7459,164 @@ html, body {
 /*
  * Boxes
  */
+/* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-table {
+  margin: 32px 0;
+  background: white;
+  width: 100%;
+  background: white;
+  box-shadow: 0 1px 1px rgba(149, 161, 216, 0.08), 0 -1px 1px rgba(149, 161, 216, 0.04), 0 3px 5px rgba(149, 161, 216, 0.08); }
+
+/* line 18, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-table > * > tr + tr > td,
+.crud-table > * > tr + tr > th {
+  border-top: solid 1px rgba(149, 161, 216, 0.08); }
+
+/* line 26, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-table > * > tr > td {
+  padding: 8px 16px; }
+
+/* line 30, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-table > * > tr > td.icon {
+  background: #4B516D;
+  width: 64px;
+  height: 64px; }
+
+/* line 36, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-table > * > tr > td.name {
+  font-size: 15px; }
+  @media (min-width: 20em) and (max-width: 60em) {
+    /* line 36, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+    .crud-table > * > tr > td.name {
+      font-size: 15px; } }
+  @media (min-width: 60em) {
+    /* line 36, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+    .crud-table > * > tr > td.name {
+      font-size: 17px; } }
+
+/* line 40, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-table > * > tr > td.right, .crud-table > * > tr > td.actions {
+  color: #95A1D8;
+  text-align: right; }
+
+/*
+ * Actions
+ */
+/* line 52, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-actions > * {
+  display: inline-block;
+  vertical-align: middle; }
+
+/* line 57, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-actions > .info {
+  margin-left: -16px; }
+
+/* line 61, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+.crud-actions > .btn {
+  border: solid 1px rgba(149, 161, 216, 0.25);
+  color: #95A1D8;
+  padding: 2px 8px;
+  margin-left: 16px; }
+  /* line 67, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/crud-table.scss */
+  .crud-actions > .btn:hover, .crud-actions > .btn:focus {
+    background: #22C7F5;
+    border-color: #22C7F5;
+    color: white; }
+
+/*
+ * Bootstrap
+ * https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+ */
+/*
+ * Colors
+ */
+/*
+ * Modularscale-sass
+ */
+/*
+ * Typography
+ */
+/*
+ * Modular scale helpers
+ */
+/*
+ * Antialias
+ */
+/*
+ * Boxes
+ */
 /* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/inset-bg.scss */
 .inset-bg {
   background: #E9ECF6; }
+
+/*
+ * Bootstrap
+ * https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+ */
+/*
+ * Colors
+ */
+/*
+ * Modularscale-sass
+ */
+/* line 101, node_modules/iconfonts/stylesheets/ionicons.scss */
+.more-actions > .toggle::before {
+  line-height: 1em;
+  font-family: "Ionicons";
+  font-weight: normal;
+  font-style: normal;
+  display: inline-block;
+  text-decoration: none;
+  vertical-align: middle;
+  text-rendering: optimizeLegibility !important;
+  -webkit-font-smoothing: antialiased !important;
+  -moz-osx-font-smoothing: grayscale; }
+
+/* line 196, node_modules/iconfonts/stylesheets/ionicons.scss */
+.more-actions > .toggle::before {
+  content: "\f397"; }
+
+/*
+ * Typography
+ */
+/*
+ * Modular scale helpers
+ */
+/*
+ * Antialias
+ */
+/*
+ * Boxes
+ */
+/* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/more-actions.scss */
+.more-actions {
+  width: 160px;
+  margin-left: -128px;
+  text-align: right;
+  display: inline-block;
+  pointer-events: none; }
+  /* line 12, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/more-actions.scss */
+  .more-actions > * {
+    pointer-events: auto; }
+  /* line 17, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/more-actions.scss */
+  .more-actions > .toggle {
+    display: inline-block;
+    border: 0;
+    padding: 0;
+    margin: 0;
+    background: transparent; }
+  /* line 26, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/more-actions.scss */
+  .more-actions > .toggle::before {
+    font-size: 24px;
+    color: #95A1D8;
+    display: inline-block;
+    width: 24px;
+    height: 32px;
+    line-height: 32px; }
+  /* line 35, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/more-actions.scss */
+  .more-actions > .toggle:hover::before,
+  .more-actions > .toggle:focus::before {
+    color: #22C7F5; }
 
 /*
  * Bootstrap
@@ -7460,7 +7698,7 @@ html, body {
   @media (min-width: 60em) {
     /* line 15, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-heading.scss */
     .primary-title {
-      font-size: 19px; } }
+      font-size: 20px; } }
 
 /*
  * Bootstrap

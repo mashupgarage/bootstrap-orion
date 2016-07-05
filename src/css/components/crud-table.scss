@@ -1,0 +1,74 @@
+@import '../common';
+
+.crud-table {
+  margin: 32px 0;
+  background: white;
+  width: 100%;
+  @include panel-shadow;
+}
+
+.crud-table > thead,
+.crud-table > body {
+  > tr > td {
+  }
+}
+
+// Lines
+.crud-table > * > tr + tr {
+  > td,
+  > th {
+    border-top: solid 1px $line-color;
+  }
+}
+
+// TD's
+.crud-table > * > tr > td {
+  & {
+    padding: 8px 16px;
+  }
+
+  &.icon {
+    background: $dark;
+    width: 64px;
+    height: 64px;
+  }
+
+  &.name {
+    @include font-size(1);
+  }
+
+  &.right,
+  &.actions {
+    color: $primary;
+    text-align: right;
+  }
+}
+
+/*
+ * Actions
+ */
+
+.crud-actions {
+  > * {
+    display: inline-block;
+    vertical-align: middle;
+  }
+
+  > .info {
+    margin-left: -16px;
+  }
+
+  > .btn {
+    border: solid 1px rgba($primary, .25);
+    color: $primary;
+    padding: 2px 8px;
+    margin-left: 16px;
+
+    &:hover,
+    &:focus {
+      background: $accent;
+      border-color: $accent;
+      color: white;
+    }
+  }
+}

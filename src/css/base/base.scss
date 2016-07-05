@@ -1,0 +1,17 @@
+@import '../common';
+
+h1 { @include font-size(5); }
+h2 { @include font-size(4); }
+h3 { @include font-size(3); }
+h4 { @include font-size(2); }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 { color: $black; }
+
+.btn {
+  border-radius: 2px;
+}
