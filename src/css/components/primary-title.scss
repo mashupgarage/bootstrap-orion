@@ -8,13 +8,21 @@
   font-weight: bold;
   display: inline-block;
 
+  > a {
+    color: $black;
+    font-weight: bold;
+    font-size: 1em;
+  }
+
   > small {
     font-weight: 400;
     font-size: 1em;
     color: $primary;
   }
 
-  > small::before {
+  // Separator
+  > small:last-child::before,
+  > small:first-child::after {
     content: '/';
     opacity: .5;
     margin: 0 .3em;

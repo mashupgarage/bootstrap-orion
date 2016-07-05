@@ -7722,12 +7722,18 @@ h6 {
     .primary-title {
       font-size: 20px; } }
   /* line 11, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
+  .primary-title > a {
+    color: #333;
+    font-weight: bold;
+    font-size: 1em; }
+  /* line 17, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
   .primary-title > small {
     font-weight: 400;
     font-size: 1em;
     color: #95A1D8; }
-  /* line 17, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
-  .primary-title > small::before {
+  /* line 24, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
+  .primary-title > small:last-child::before,
+  .primary-title > small:first-child::after {
     content: '/';
     opacity: .5;
     margin: 0 .3em; }
