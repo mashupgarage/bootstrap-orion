@@ -11,12 +11,3 @@
   white-space: nowrap;
   @include has-lrc(60px);
 }
-
-.primary-title {
-  margin: 0;
-  padding: 0;
-  @include font-size(2);
-  color: $black;
-  font-weight: bold;
-  display: inline-block;
-}

@@ -7683,7 +7683,29 @@ h6 {
     width: 100%;
     z-index: 1; }
 
-/* line 15, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-heading.scss */
+/*
+ * Bootstrap
+ * https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+ */
+/*
+ * Colors
+ */
+/*
+ * Modularscale-sass
+ */
+/*
+ * Typography
+ */
+/*
+ * Modular scale helpers
+ */
+/*
+ * Antialias
+ */
+/*
+ * Boxes
+ */
+/* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
 .primary-title {
   margin: 0;
   padding: 0;
@@ -7692,13 +7714,23 @@ h6 {
   font-weight: bold;
   display: inline-block; }
   @media (min-width: 20em) and (max-width: 60em) {
-    /* line 15, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-heading.scss */
+    /* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
     .primary-title {
       font-size: 17px; } }
   @media (min-width: 60em) {
-    /* line 15, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-heading.scss */
+    /* line 3, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
     .primary-title {
       font-size: 20px; } }
+  /* line 11, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
+  .primary-title > small {
+    font-weight: 400;
+    font-size: 1em;
+    color: #95A1D8; }
+  /* line 17, /Users/rsc/Projects/rstacruz/bootstrap-orion/src/css/components/primary-title.scss */
+  .primary-title > small::before {
+    content: '/';
+    opacity: .5;
+    margin: 0 .3em; }
 
 /*
  * Bootstrap
