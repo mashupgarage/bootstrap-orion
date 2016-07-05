@@ -1,0 +1,51 @@
+@import '../common';
+
+.back-crumbs {
+  &,
+  > li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  > li {
+    display: inline-block;
+  }
+
+  > li > a {
+    display: inline-block;
+    color: $primary;
+    @include font-size(1);
+  }
+
+  // Back button
+  > li > a::before {
+    @include ion-icon('ios-arrow-left', 26px);
+    display: inline-block;
+    margin: 0 12px;
+    position: relative;
+    top: -1px;
+  }
+
+  > li.-home > a::before {
+    @include ion-icon('ios-home', 20px);
+    margin: 0;
+  }
+
+  > li:first-child > a::before {
+    margin-left: 0;
+  }
+
+  // Hover
+  > li > a:hover,
+  > li > a:focus {
+    & {
+      color: $accent;
+      text-decoration: none;
+    }
+
+    &::before {
+      color: $accent;
+    }
+  }
+}

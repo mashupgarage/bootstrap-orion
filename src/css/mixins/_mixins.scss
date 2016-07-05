@@ -1,0 +1,48 @@
+/*
+ * Typography
+ */
+
+@mixin caps-type {
+  font-family: $font-family-sans-serif;
+  text-transform: uppercase;
+  font-weight: 400;
+  font-style: normal;
+  letter-spacing: .05em;
+}
+
+@mixin heading-type {
+  font-family: 'Source Sans Pro', $font-family-sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
+/*
+ * Modular scale helpers
+ */
+
+@mixin font-size($n) { @include ms-respond(font-size, $n); }
+@mixin padding-top($n) { @include ms-respond(padding-top, $n); }
+@mixin padding-bottom($n) { @include ms-respond(padding-bottom, $n); }
+@mixin margin-top($n) { @include ms-respond(margin-top, $n); }
+@mixin margin-bottom($n) { @include ms-respond(margin-bottom, $n); }
+
+/*
+ * Antialias
+ */
+
+@mixin antialias {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/*
+ * Boxes
+ */
+
+@mixin panel-shadow($bg: white) {
+  background: $bg;
+  box-shadow:
+    0 1px 1px rgba($primary, .04),
+    0 -1px 1px rgba($primary, .02),
+    0 3px 5px rgba($primary, .04);
+}

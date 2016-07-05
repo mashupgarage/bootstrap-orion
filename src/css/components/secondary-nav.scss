@@ -1,0 +1,57 @@
+@import '../common';
+
+.secondary-nav {
+  background: white;
+  height: 48px;
+  line-height: 48px;
+  box-shadow: 0 1px rgba($primary, .2);
+}
+
+// Separator before primary-heading
+.primary-heading + .secondary-nav {
+  > .container::before {
+    content: '';
+    display: block;
+    height: 1px;
+    background: $line-color;
+  }
+}
+
+.secondary-links {
+  &,
+  > li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  & {
+    text-align: center;
+  }
+
+  > li,
+  > li > a {
+    display: inline-block;
+  }
+
+  // Each link
+  > li > a {
+    height: 48px;
+    line-height: 48px;
+    white-space: nowrap;
+    margin: 0 16px;
+  }
+
+  > li > a:focus,
+  > li > a:hover {
+    text-decoration: none;
+    color: $primary-darker;
+  }
+
+  // Active
+  > li.-active > a,
+  > li > a.-active {
+    color: $accent;
+    box-shadow: inset 0 -1px $accent;
+  }
+}

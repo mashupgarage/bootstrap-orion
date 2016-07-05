@@ -1,0 +1,45 @@
+/*
+ * Bootstrap
+ * https://github.com/twbs/bootstrap-sass/blob/master/assets/stylesheets/bootstrap/_variables.scss
+ */
+
+$font-family-sans-serif: 'assistant', 'source sans pro', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+
+$font-size-base: 14px;
+$line-height-base: 1.6;
+$headings-font-weight: 400;
+
+$grid-gutter-width: 16px;
+
+
+/*
+ * Colors
+ */
+
+$inset-bg: #E9ECF6;
+$body-bg: $inset-bg;
+
+$dark: #4B516D;
+$primary: #95A1D8;
+$primary-dark: darken($primary, 12.5%);
+$primary-darker: darken($primary, 25%);
+$primary-light: lighten($primary, 12.5%);
+$primary-lighter: lighten($primary, 25%);
+
+$accent: #22C7F5;
+$text-color: #505050;
+$black: #333;
+$gray-text: $primary;
+$line-color: rgba($primary, .08);
+$brand-primary: $primary;
+
+/*
+ * Modularscale-sass
+ */
+
+$ms-base: $font-size-base;
+$ms-ratio: 1.2;
+$ms-fluid: false;
+$ms-range:
+  1.1   20em,
+  1.15  60em;

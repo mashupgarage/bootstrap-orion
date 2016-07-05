@@ -1,0 +1,47 @@
+@import '../common';
+
+.primary-heading {
+  background: white;
+  height: 60px;
+  line-height: 60px;
+  box-shadow: 0 1px rgba($primary, .2);
+}
+
+.primary-heading > .container {
+  & {
+    white-space: nowrap;
+    position: relative;
+  }
+
+  > .left,
+  > .right {
+    position: relative;
+    z-index: 2;
+    background: white;
+  }
+
+  > .left {
+    text-align: left;
+    float: left;
+  }
+
+  > .center {
+    text-align: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    height: 60px;
+    line-height: 60px;
+  }
+}
+
+.primary-title {
+  margin: 0;
+  padding: 0;
+  @include font-size(2);
+  color: $black;
+  font-weight: bold;
+  display: inline-block;
+}
