@@ -15,10 +15,10 @@ npm install mashupgarage/bootstrap-orion bootstrap-sass
 Then use it like so:
 
 ```scss
-@import 'bootstrap-orion/stylesheets/common';
+@import 'bootstrap-orion/assets/stylesheets/common';
 @import 'bootstrap-sass/assets/stylesheets/bootstrap';
-@import 'bootstrap-orion/stylesheets/base';
-@import 'bootstrap-orion/stylesheets/components';
+@import 'bootstrap-orion/assets/stylesheets/base';
+@import 'bootstrap-orion/assets/stylesheets/components';
 ```
 
 ## Parts

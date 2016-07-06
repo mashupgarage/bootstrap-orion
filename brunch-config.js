@@ -18,7 +18,7 @@ exports.config = {
   },
 
   paths: {
-    watched: ["src", "stylesheets"],
+    watched: ["example", "assets"],
     public: "public" // Where to compile files to
   },
 
@@ -37,7 +37,7 @@ exports.config = {
     },
     jaded: {
       staticPatterns:
-        /^src(\/|\\)html(\/|\\)(.+)\.jade$/
+        /^example(\/|\\)html(\/|\\)(.+)\.jade$/
     }
   },
 
