@@ -47,6 +47,11 @@
     margin: 0 12px;
   }
 
+  > li > a,
+  > li > a:visited {
+    color: $primary;
+  }
+
   // Caps
   > li:first-child > a {
     margin-left: 0;

@@ -12,6 +12,24 @@ h4,
 h5,
 h6 { color: $black; }
 
+a {
+  color: $primary;
+}
+
+a:visited {
+  color: $primary-light;
+}
+
+a:hover,
+a:focus {
+  color: $primary-dark;
+  text-decoration: none;
+}
+
+a:active {
+  color: $accent;
+}
+
 .btn {
   border-radius: 2px;
 }
