@@ -42,11 +42,12 @@ block body
           a.btn.btn-sm.btn-accent Add new
 
       table.crud-table
-        each x in [1, 2, 3]
+        each n in [0, 1, 2]
           tr
             td.icon
+              img(src='https://unsplash.it/64/64?image=' + [400, 500, 600][n])
             td.name
-              | Glazed donuts
+              = ["Bourke Street", "Little Collins", "Elizabeth Lane"][n]
             td.actions.crud-actions
               span.info 2 items, 0kb
               a.btn(href="") Edit
