@@ -1,8 +1,20 @@
 @import '../common';
 
+.btn {
+  border-radius: 2px;
+}
+
+/*
+ * Small
+ */
+
 .btn-sm {
   @include font-size(-1);
 }
+
+/*
+ * Default
+ */
 
 .btn-default {
   background-color: white;

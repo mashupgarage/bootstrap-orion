@@ -18,7 +18,7 @@ exports.config = {
   },
 
   paths: {
-    watched: ["src"],
+    watched: ["src", "stylesheets"],
     public: "public" // Where to compile files to
   },
 
