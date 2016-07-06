@@ -15,7 +15,7 @@
   > li > a {
     display: inline-block;
     color: $primary;
-    @include font-size(1);
+    @include font-size(0);
   }
 
   // Back button
@@ -29,7 +29,7 @@
 
   // Home button
   > li.-home > a::before {
-    @include ion-icon('ios-home', 20px);
+    @include ion-icon('ios-home', 18px);
     margin: 0;
   }
 

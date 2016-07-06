@@ -5,7 +5,7 @@
 
 $font-family-sans-serif: 'Roboto', -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif !default;
 
-$font-size-base: 13px !default;
+$font-size-base: 15px !default;
 $line-height-base: 1.6 !default;
 $headings-font-weight: 400 !default;
 
@@ -33,6 +33,11 @@ $primary-dark: darken($primary, 12.5%) !default;
 $primary-darker: darken($primary, 25%) !default;
 $primary-light: lighten($primary, 12.5%) !default;
 $primary-lighter: lighten($primary, 25%) !default;
+
+$accent-dark: darken($accent, 12.5%) !default;
+$accent-darker: darken($accent, 25%) !default;
+$accent-light: lighten($accent, 12.5%) !default;
+$accent-lighter: lighten($accent, 25%) !default;
 
 // Aliases
 $brand-primary: $primary !default;

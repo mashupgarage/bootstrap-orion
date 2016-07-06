@@ -35,6 +35,12 @@ block body
 
   .inset-bg
     .container
+      .panel-heading
+        h2
+          | List of products
+        .action
+          a.btn.btn-sm.btn-accent Add new
+
       table.crud-table
         each x in [1, 2, 3]
           tr
@@ -53,6 +59,16 @@ block body
                     a(href="") Edit
                   li
                     a(href="") Delete
+
+      .panel-heading
+        h2
+          | Basic panel
+
+      .basic-panel
+        h2 Second-level heading
+        p Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver.
+        h3 Third-level heading
+        p Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside, the sable cloud beneath was dished out, and the car seemed to float in the middle of an immense dark sphere, whose upper half was strewn with silver.
 
       p.text-center(style="padding: 400px")
         | Hello there.

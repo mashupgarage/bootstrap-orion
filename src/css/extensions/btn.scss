@@ -1,0 +1,65 @@
+@import '../common';
+
+.btn-sm {
+  @include font-size(-1);
+}
+
+.btn-default {
+  background-color: white;
+  border-color: rgba($primary, .5);
+  color: $primary;
+
+  &:hover,
+  &:focus {
+    background-color: mix($primary, white, 10%);
+    border-color: rgba($primary, .75);
+    color: $primary-dark;
+  }
+
+  &:active {
+    background-color: $accent;
+    border-color: $accent;
+    color: white;
+  }
+}
+
+/*
+ * Link
+ */
+
+.btn-link {
+  color: $primary-dark;
+  padding: 0;
+
+  &:hover,
+  &:focus {
+    color: $primary-darker;
+  }
+
+  &:active {
+    color: $accent;
+  }
+}
+
+/*
+ * Accent
+ */
+
+.btn-accent {
+  background-color: white;
+  border-color: rgba($accent, .5);
+  color: $accent;
+
+  &:hover,
+  &:focus {
+    background-color: $accent;
+    border-color: $accent;
+    color: white;
+  }
+
+  &:active {
+    background-color: $accent-dark;
+    border-color: $accent-dark;
+    color: white;
+  }
+}
