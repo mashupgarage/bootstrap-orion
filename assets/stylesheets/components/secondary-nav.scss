@@ -15,7 +15,7 @@
 // Separator before primary-heading
 .primary-heading + .secondary-nav {
   > .container::before {
-    content: '';
+    content: "";
     display: block;
     height: 1px;
     background: $line-color;

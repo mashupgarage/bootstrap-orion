@@ -19,7 +19,11 @@
 .btn-default {
   background-color: white;
   border-color: rgba($primary, .5);
-  color: $primary;
+
+  &,
+  &:visited {
+    color: $primary;
+  }
 
   &:hover,
   &:focus {
@@ -40,8 +44,12 @@
  */
 
 .btn-link {
-  color: $primary-dark;
   padding: 0;
+  color: $primary-dark;
+
+  &:visited {
+    color: $primary;
+  }
 
   &:hover,
   &:focus {
@@ -60,7 +68,11 @@
 .btn-accent {
   background-color: white;
   border-color: rgba($accent, .5);
-  color: $accent;
+
+  &,
+  &:visited {
+    color: $accent;
+  }
 
   &:hover,
   &:focus {
@@ -73,5 +85,54 @@
     background-color: $accent-dark;
     border-color: $accent-dark;
     color: white;
+  }
+}
+
+/*
+ * Accent
+ */
+
+.btn-highlight {
+  background-color: $accent;
+  border-color: transparent;
+
+  &,
+  &:visited {
+    color: white;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $accent-dark;
+    border-color: $accent-dark;
+    color: white;
+  }
+
+  &:active {
+    background-color: $accent-darker;
+    border-color: $accent-darker;
+    color: white;
+  }
+}
+
+/*
+ * Accent link
+ */
+
+.btn-accent-link {
+  padding: 0;
+  color: $accent;
+
+  &:visited {
+    color: $accent;
+  }
+
+  &:hover,
+  &:focus {
+    color: $accent-dark;
+  }
+
+  &:active {
+    color: $accent-darker;
   }
 }

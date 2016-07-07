@@ -55,3 +55,51 @@ span.btn.btn-sm Small button
 span.btn.btn-sm.btn-primary Primary
 span.btn.btn-sm.btn-accent Accent
 ```
+
+## Primary heading
+
+### primary-heading
+
+```example.jade
+.primary-heading
+  .container
+    .left
+      ul.back-crumbs
+        li.-home
+          a(href="/")
+        li
+          a(href="/") Back
+    .center
+      .primary-title
+        | Hello
+```
+
+### back-crumbs
+Breadcrumbs.
+
+```example.jade
+ul.back-crumbs
+  li.-home
+    a(href="/")
+  li
+    a(href="/") Back
+```
+
+## Secondary nav
+
+### secondary-nav
+
+```example.jade
+.secondary-nav
+  .container
+    .center
+      ul.secondary-links
+        li.-active
+          a(href="/") Home
+        li
+          a(href="/") Categories
+        li
+          a(href="/") Orders
+        li
+          a(href="/") Products
+```

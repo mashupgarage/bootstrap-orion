@@ -40,4 +40,24 @@
     color: $primary;
     text-align: right;
   }
+
+  &.name,
+  &.name > a {
+    color: $black;
+  }
+
+  &.name > a:visited {
+    color: mix($black, $gray-text, 50%);
+  }
+
+  &.name > .info {
+    margin-left: 0;
+    @include font-size(-1);
+    color: $gray-text;
+
+    &:before {
+      content: "·";
+      margin: 0 .4em;
+    }
+  }
 }

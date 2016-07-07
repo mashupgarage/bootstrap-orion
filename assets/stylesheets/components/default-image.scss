@@ -1,0 +1,36 @@
+@import '../common';
+
+@mixin default-image-size($size) {
+  width: $size;
+  height: $size;
+  line-height: $size;
+}
+
+.default-image {
+  display: inline-block;
+  background: $primary;
+  width: 64px;
+  text-align: center;
+  color: white;
+
+  @include default-image-size(64px);
+
+  $colors: ($primary #1abc9c #2ecc71 #3498db #9b59b6 #34495e #f1c40f #e67e22 #e74c3c);
+
+  &.-v0 { background: nth($colors, 1); }
+  &.-v1 { background: nth($colors, 2); }
+  &.-v2 { background: nth($colors, 3); }
+  &.-v3 { background: nth($colors, 4); }
+  &.-v4 { background: nth($colors, 5); }
+  &.-v5 { background: nth($colors, 6); }
+  &.-v6 { background: nth($colors, 7); }
+  &.-v7 { background: nth($colors, 8); }
+  &.-v8 { background: nth($colors, 9); }
+  &.-v9 { background: nth($colors, 1); }
+
+  &.-size16  { @include default-image-size(16px);  @include font-size(-1); }
+  &.-size24  { @include default-image-size(24px);  @include font-size(-1); }
+  &.-size32  { @include default-image-size(32px);  @include font-size(0); }
+  &.-size64  { @include default-image-size(64px);  @include font-size(1); }
+  &.-size128 { @include default-image-size(128px); @include font-size(2); }
+}
