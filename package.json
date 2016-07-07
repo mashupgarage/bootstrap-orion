@@ -1,17 +1,11 @@
 {
   "name": "bootstrap-orion",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "brunch build --production",
-    "watch": "brunch watch --server",
-    "brunch": "brunch"
+  "description": "> Bootstrap components for admin pages",
+  "version": "0.1.0",
+  "author": "Mashupgarage Team <rico@ricostacruz.com>",
+  "bugs": {
+    "url": "https://github.com/mashupgarage/bootstrap-orion/issues"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "auto-reload-brunch": "2.7.1",
     "autoprefixer": "6.3.7",
@@ -25,5 +19,26 @@
     "modularscale-sass": "2.1.1",
     "postcss-brunch": "0.5.0",
     "sass-brunch": "2.6.3"
+  },
+  "devDependencies": {},
+  "directories": {
+    "doc": "docs",
+    "example": "example"
+  },
+  "homepage": "https://github.com/mashupgarage/bootstrap-orion#readme",
+  "keywords": [
+    "bootstrap"
+  ],
+  "license": "MIT",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mashupgarage/bootstrap-orion.git"
+  },
+  "scripts": {
+    "brunch": "brunch",
+    "build": "brunch build --production",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "brunch watch --server"
   }
 }
