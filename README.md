@@ -1,8 +1,10 @@
 # bootstrap-orion
 
-> Bootstrap components
+> Bootstrap components for admin pages
 
-Orion is a bunch of components built on top of Bootstrap geared towards building admin interfaces.
+![](docs/screenshots/screenshot.png)
+
+Orion is a group of components built on top of Bootstrap geared towards building admin interfaces.
 
 It's not exactly a theme/skin; it leaves stock Bootstrap components alone. Instead, it gives you more components to use.
 
@@ -23,17 +25,22 @@ Then use it like so:
 
 ## Parts
 
-- `common` - variables and mixins (no output emitted)
-- `base` - basic overrides (h1, h2, etc)
-- `components` - components
+- `common` - Variables and mixins (no output emitted).
+- `base` - Basic overrides (h1, h2, etc).
+- `components` - Components.
+
+## Configuring
+
+- You can choose to `@import` only the components you need.
+- You can override any of the variables by defining them _before_ `common`.
 
 ## RSCSS
 
 It loosely follows [RSCSS](http://rscss.io/) naming conventions, namely:
 
-- Components are always in `.two-words`
-- Elements are one word, like `.info-box > .title`, and are always selected using `>`
-- Variant classes start with a dash, like `.-active`
+- Components are always in `.two-words`.
+- Elements are one word, like `.info-box > .title`, and are always selected using `>`.
+- Variant classes start with a dash, like `.-active`.
 
 The only parts that don't strictly follow RSCSS are `.btn`, which follows Bootstrap conventions. (eg, `.btn.btn-sm.btn-accent` instead of `.btn.-small.-accent`)
 
