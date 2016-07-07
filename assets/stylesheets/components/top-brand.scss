@@ -1,0 +1,18 @@
+@import '../common';
+
+.top-brand {
+  display: inline-block;
+  text-transform: uppercase;
+  letter-spacing: .2em;
+  font-weight: bold;
+  @include font-size(-1);
+
+  &, &:visited {
+    color: lighten($dark, 12.5%);
+  }
+
+  &:hover,
+  &:focus {
+    color: white;
+  }
+}

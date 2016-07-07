@@ -1,18 +1,5 @@
 @import '../common';
 
-.top-nav {
-  background: $dark;
-  color: $primary;
-
-  position: relative;
-  z-index: 1;
-}
-
-.top-nav > .container {
-  white-space: nowrap;
-  @include has-lrc(48px, $background: $dark);
-}
-
 .top-links {
   &,
   > li {
@@ -50,22 +37,5 @@
   // Subsequent links
   > li + li > a {
     margin-left: 16px;
-  }
-}
-
-.top-brand {
-  display: inline-block;
-  text-transform: uppercase;
-  letter-spacing: .2em;
-  font-weight: bold;
-  @include font-size(-1);
-
-  &, &:visited {
-    color: lighten($dark, 12.5%);
-  }
-
-  &:hover,
-  &:focus {
-    color: white;
   }
 }

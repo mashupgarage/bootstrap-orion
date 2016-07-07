@@ -2,6 +2,12 @@
 
 .btn {
   border-radius: 2px;
+  transition: all 150ms ease-out;
+}
+
+.btn:hover,
+.btn:focus {
+  transition: none;
 }
 
 /*
@@ -134,5 +140,32 @@
 
   &:active {
     color: $accent-darker;
+  }
+}
+
+/*
+ * Aux button
+ */
+
+.btn-aux {
+  background-color: transparent;
+  border-color: rgba($primary, .5);
+
+  &,
+  &:visited {
+    color: $primary-light;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $accent-dark;
+    border-color: $accent-dark;
+    color: white;
+  }
+
+  &:active {
+    background-color: $accent-darker;
+    border-color: $accent-darker;
+    color: white;
   }
 }

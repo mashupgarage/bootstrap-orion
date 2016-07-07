@@ -1,0 +1,14 @@
+@import '../common';
+
+.box-panel {
+  margin: 32px 0;
+  border-radius: 0;
+  border: 0;
+  @include panel-shadow;
+  background: white;
+  padding: 16px;
+
+  &.-flush {
+    padding: 0;
+  }
+}

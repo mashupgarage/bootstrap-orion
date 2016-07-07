@@ -33,6 +33,7 @@ h6 { color: $black; }
 
 a {
   color: $primary;
+  transition: color 150ms ease-out;
 }
 
 a:visited {

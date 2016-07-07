@@ -1,0 +1,18 @@
+@import '../common';
+
+.aux-links {
+  @include font-size(-1);
+
+  > * + * {
+    margin-left: 8px;
+  }
+
+  > a:hover,
+  > a:focus {
+    color: white;
+  }
+
+  > .btn {
+    margin-left: 16px;
+  }
+}
