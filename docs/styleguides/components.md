@@ -1,6 +1,6 @@
 # Components
 
-### Inset background
+### inset-bg
 
 The body background is white; but use `.inset-bg` to create a section with a grey background.
 
@@ -9,7 +9,7 @@ The body background is white; but use `.inset-bg` to create a section with a gre
   p This is an inset background
 ```
 
-### Panel heading
+### panel-heading
 
 Used before components.
 
@@ -28,7 +28,7 @@ Can have an `.action`.
     span.btn.btn-sm.btn-accent Add new
 ```
 
-### Basic panel
+### basic-panel
 
 Basic white card.
 
@@ -39,6 +39,13 @@ Basic white card.
   | Hello there, world.
 ```
 
+#### Flushed
+Add `.-flush` to remove padding.
+
+```example.jade
+.basic-panel.-flush
+  | Hello there, world.
+```
 ### Buttons
 
 Buttons are nice.
