@@ -11,7 +11,10 @@
   background: $primary;
   width: 64px;
   text-align: center;
-  color: white;
+
+  &, &:visited {
+    color: white;
+  }
 
   @include default-image-size(64px);
 
