@@ -22,7 +22,6 @@
     "postcss-brunch": "0.5.0",
     "sass-brunch": "2.6.3"
   },
-  "devDependencies": {},
   "directories": {
     "doc": "docs",
     "example": "example"
