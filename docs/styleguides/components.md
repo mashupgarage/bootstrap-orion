@@ -104,7 +104,7 @@ ul.back-crumbs
           a(href="/") Products
 ```
 
-### Flash box
+### flash-box
 For alerts.
 
 ```example.jade
@@ -118,4 +118,11 @@ Use the `-error` variant.
 ```example.jade
 .flash-box.-error
   p Oops, something happened.
+```
+
+### form-control
+
+```example.jade
+input.form-control(type="text")
+input.form-control(type="text" disabled)
 ```

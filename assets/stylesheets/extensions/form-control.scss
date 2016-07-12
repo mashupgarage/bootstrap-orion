@@ -1,0 +1,26 @@
+@import '../common';
+
+.form-control {
+  border-radius: 2px;
+  border: solid 1px rgba($primary, .5);
+  box-shadow: inset 2px 2px 1px rgba($primary, .1);
+
+  &:hover {
+    border: solid 1px rgba($primary, .9);
+  }
+
+  &:focus {
+    border: solid 1px rgba($accent, .5);
+    box-shadow: inset 0 0 transparent, 0 0 4px rgba($accent, .5);
+  }
+
+  &:disabled,
+  &[disabled] {
+    background: rgba($primary, .07);
+    color: $primary;
+
+    &, &:hover {
+      border: solid 1px rgba($primary, .5);
+    }
+  }
+}
