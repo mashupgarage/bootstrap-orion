@@ -1,3 +1,10 @@
+## [v0.4.0]
+> Jul 12, 2016
+
+- New: `.form-control`
+
+[v0.4.0]: https://github.com/mashupgarage/bootstrap-orion/compare/v0.3.0...v0.4.0
+
 ## [v0.3.0]
 > Jul 12, 2016
 
