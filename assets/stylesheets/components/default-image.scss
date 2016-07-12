@@ -12,7 +12,8 @@
   width: 64px;
   text-align: center;
 
-  &, &:visited {
+  // Keep the color the same even for links
+  &, &:visited, &:hover, &:focus, &:active {
     color: white;
   }
 
