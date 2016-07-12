@@ -1,0 +1,52 @@
+@import '../common';
+
+/*
+ * Flash alert
+ */
+
+.flash-box {
+  height: 0;
+  position: relative;
+  z-index: 100;
+
+  > p {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 400px;
+    margin-left: -200px;
+    margin-top: -4px;
+    text-align: center;
+
+    box-shadow: 0 2px 5px rgba(black, .2);
+    border-radius: 2px;
+    padding: 10px 8px 8px 8px;
+    @include font-size(-1);
+  }
+
+  &.-info > p {
+    background: mix($primary, white, 5%);
+    color: mix($primary, $text-color, 10%);
+
+    &::before {
+      @include ion-icon('android-done', 16px);
+      color: $brand-success;
+      margin-right: 8px;
+      position: relative;
+      top: -1px;
+    }
+  }
+
+  &.-error > p {
+    background: mix($brand-danger, white, 8%);
+    color: mix($brand-danger, $text-color, 30%);
+
+    &::before {
+      @include ion-icon('alert-circled', 16px);
+      color: $brand-danger;
+      margin-right: 8px;
+      position: relative;
+      top: -2px;
+    }
+  }
+}

@@ -103,3 +103,19 @@ ul.back-crumbs
         li
           a(href="/") Products
 ```
+
+### Flash box
+For alerts.
+
+```example.jade
+.flash-box.-info
+  p Updated successfully.
+```
+
+#### Errors
+Use the `-error` variant.
+
+```example.jade
+.flash-box.-error
+  p Oops, something happened.
+```
