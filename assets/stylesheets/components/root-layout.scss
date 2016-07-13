@@ -1,0 +1,16 @@
+@import '../common';
+
+.root-layout {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+
+  > .top,
+  > .bottom {
+    flex: 0 1 auto;
+  }
+
+  > .body {
+    flex: 1 1 100%;
+  }
+}
