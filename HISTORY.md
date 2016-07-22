@@ -1,3 +1,11 @@
+## [v0.7.0]
+> Jul 22, 2016
+
+- Fix: `.primary-title` separators
+- Update: `.form-control`
+
+[v0.7.0]: https://github.com/mashupgarage/bootstrap-orion/compare/v0.6.0...v0.7.0
+
 ## [v0.6.0]
 > Jul 13, 2016
 
