@@ -23,10 +23,15 @@
   }
 
   // Separator
-  > small:last-child:not(:first-child)::before,
-  > small:first-child:not(:last-child)::after {
-    content: "/";
-    opacity: .5;
-    margin: 0 .3em;
+  > a, > small, > strong {
+    & + a, & + small, & + strong {
+      &::before {
+        @include ion-icon('ios-arrow-right', 32px);
+        font-weight: 400;
+        color: $primary;
+        opacity: .25;
+        margin: 0 .5em;
+      }
+    }
   }
 }
