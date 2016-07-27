@@ -3,3 +3,7 @@
 .inset-bg {
   background: $inset-bg;
 }
+
+.light-inset-bg {
+  background: mix($inset-bg, white, 20%);
+}
