@@ -44,7 +44,7 @@
 @mixin panel-shadow($bg: white) {
   background: $bg;
   box-shadow:
-    0 1px 1px rgba($primary, .08),
-    0 -1px 1px rgba($primary, .04),
+    0 1px 1px rgba($primary, .4),
+    0 -1px 1px rgba($primary, .4),
     0 3px 5px rgba($primary, .08);
 }
