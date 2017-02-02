@@ -23,14 +23,18 @@
   }
 
   // Separator
-  > a, > small, > strong {
-    & + a, & + small, & + strong {
+  > a, > small, > strong, > span {
+    & + a, & + small, & + strong, & + span {
       &::before {
-        @include ion-icon('ios-arrow-right', 32px);
-        font-weight: 400;
-        color: $primary;
-        opacity: .25;
-        margin: 0 .5em;
+        content: '';
+        display: inline-block;
+        border-top: solid 1px $primary;
+        border-right: solid 1px $primary;
+        width: 14px;
+        height: 14px;
+        transform: rotate(45deg);
+        opacity: .5;
+        margin: 0 .8em 0 .4em;
       }
     }
   }

@@ -20,7 +20,7 @@
 
   // Back button
   > li > a::before {
-    @include ion-icon('ios-arrow-left', 26px);
+    @include ion-icon('ios-arrow-back', 24px);
     display: inline-block;
     margin: 0 12px;
     position: relative;
