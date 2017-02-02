@@ -1,3 +1,10 @@
+## [v0.8.0]
+> Feb 2, 2017
+
+- Update Ionicons to version 3
+
+[v0.8.0]: https://github.com/mashupgarage/bootstrap-orion/compare/v0.7.0...v0.8.0
+
 ## [v0.7.0]
 > Jul 22, 2016
 
