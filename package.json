@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-orion",
   "description": "> Bootstrap components for admin pages",
-  "version": "0.7.0",
+  "version": "0.8.0",
   "author": "Mashupgarage Team <rico@ricostacruz.com>",
   "bugs": {
     "url": "https://github.com/mashupgarage/bootstrap-orion/issues"
