@@ -24,7 +24,7 @@
 
   // Icon
   > .toggle::before {
-    @include ion-icon('android-more-vertical', 24px);
+    @include ion-icon('md-more', 24px);
     color: $primary;
     display: inline-block;
     width: 24px;

@@ -29,7 +29,7 @@
     color: mix($primary, $text-color, 10%);
 
     &::before {
-      @include ion-icon('android-done', 16px);
+      @include ion-icon('md-checkmark', 16px);
       color: $brand-success;
       margin-right: 8px;
       position: relative;
@@ -42,7 +42,7 @@
     color: mix($brand-danger, $text-color, 30%);
 
     &::before {
-      @include ion-icon('alert-circled', 16px);
+      @include ion-icon('md-alert', 16px);
       color: $brand-danger;
       margin-right: 8px;
       position: relative;

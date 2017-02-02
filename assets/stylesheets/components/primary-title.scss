@@ -26,7 +26,7 @@
   > a, > small, > strong {
     & + a, & + small, & + strong {
       &::before {
-        @include ion-icon('ios-arrow-right', 32px);
+        @include ion-icon('ios-arrow-forward', 32px);
         font-weight: 400;
         color: $primary;
         opacity: .25;
